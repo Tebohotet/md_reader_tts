@@ -1,0 +1,26 @@
+# pubspec.yaml
+name: md_reader_tts
+description: A Flutter app to read Markdown files with TTS (female voice preference).
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^4.1.0
+  file_picker: ^9.0.0
+  shared_preferences: ^2.3.0
+  flutter_markdown: ^0.7.4   # ← Add this line
+  translator: ^1.0.0   # or latest
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
