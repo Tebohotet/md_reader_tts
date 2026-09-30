@@ -1,6 +1,6 @@
 ### 1. Short GitHub Description (About section)
 
-Paste this in the **Description** field on the repository page:
+
 
 ```
 Flutter Markdown & text reader with Text-to-Speech, multi-language translation, start-from-phrase, and voice customization.
